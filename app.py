@@ -17,7 +17,7 @@ def recommendation(title):
     return jobs
 
 #Web APP
-st.title("Linkedin Job Search System")
+st.title("WorkWiz")
 tt = st.selectbox('search job',df['job_title'])
  
 
